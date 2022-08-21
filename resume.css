@@ -1,0 +1,119 @@
+.resume-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50 100%);
+}
+.resume-header {
+  width: 100%;
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 32px;
+  justify-content: space-between;
+}
+.resume-text {
+  color: rgb(0, 0, 0);
+  font-family: Merriweather;
+}
+.resume-nav {
+  display: flex;
+}
+.resume-nav1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.resume-navlink {
+  text-decoration: none;
+}
+.resume-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.resume-icon2 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.resume-icon4 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.resume-hero {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.resume-image {
+  width: 45rem;
+  margin-top: 32px;
+}
+@media(max-width: 1200px) {
+  .resume-navlink {
+    text-decoration: none;
+  }
+  .resume-image {
+    width: 256px;
+    height: 229px;
+  }
+}
+@media(max-width: 991px) {
+  .resume-hero {
+    flex-direction: column;
+  }
+  .resume-image {
+    width: 80%;
+  }
+}
+@media(max-width: 767px) {
+  .resume-header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .resume-nav {
+    display: none;
+  }
+  .resume-nav1 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .resume-navlink {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .resume-hero {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media(max-width: 479px) {
+  .resume-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .resume-icon-group {
+    display: none;
+  }
+  .resume-hero {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+}
