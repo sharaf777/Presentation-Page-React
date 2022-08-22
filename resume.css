@@ -71,8 +71,8 @@
     text-decoration: none;
   }
   .resume-image {
-    width: 256px;
-    height: 229px;
+    width: 432px;
+    height: 475px;
   }
 }
 @media(max-width: 991px) {
@@ -81,6 +81,7 @@
   }
   .resume-image {
     width: 80%;
+    height: 795px;
   }
 }
 @media(max-width: 767px) {
@@ -115,5 +116,9 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: 32px;
+  }
+  .resume-image {
+    width: 295px;
+    height: 325px;
   }
 }
